@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bag Packer's Haven</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="css/magnific-popup.css" />
+
+		<link rel="stylesheet" href="css/aos.css" />
+
+		<link rel="stylesheet" href="css/ionicons.min.css" />
+
+		<link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+		<link rel="stylesheet" href="css/jquery.timepicker.css" />
+
+		<link rel="stylesheet" href="css/flaticon.css" />
+		<link rel="stylesheet" href="css/icomoon.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	</head>
+	<body>
+		<nav
+			class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+			id="ftco-navbar"
+		>
+			<div class="container">
+				<a class="navbar-brand mt-1" href="index.html"
+					>Bag Packer's<span>Haven</span></a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#ftco-nav"
+					aria-controls="ftco-nav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="oi oi-menu"></span> Menu
+				</button>
+
+				<div class="collapse navbar-collapse" id="ftco-nav">
+					<ul class="navbar-nav ml-auto">
+						<!-- <li class="nav-item active">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="about.html" class="nav-link">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="destination.html" class="nav-link">Destination</a>
+						</li>
+						<li class="nav-item">
+							<a href="blog.html" class="nav-link">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact.html" class="nav-link">Contact</a>
+						</li> -->
+						<li class="nav-item cta">
+							<a href="#camping-categories" class="nav-link">Book Now</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END nav -->
+
+		<div
+			class="hero-wrap js-fullheight"
+			style="background-image: url('images/bg1.jpg')"
+			data-stellar-background-ratio="0.5"
+		>
+			<div class="overlay"></div>
+			<div class="container">
+				<div
+					class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
+					data-scrollax-parent="true"
+				>
+					<div
+						class="col-md-9 text text-center ftco-animate"
+						data-scrollax=" properties: { translateY: '70%' }"
+					>
+						<a
+							href="https://www.youtube.com/watch?v=u6nuoO2IQ2k"
+							class="icon-video popup-youtube d-flex align-items-center justify-content-center mb-4"
+						>
+							<span class="ion-ios-play"></span>
+						</a>
+						<!-- <iframe
+							width="1278"
+							height="719"
+							src="https://www.youtube.com/embed/u6nuoO2IQ2k"
+							title="Ziro festival of music 2022 || Arunachal Pradesh || Ankit Sharma photography"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen
+						></iframe> -->
+						<p
+							class="caps"
+							data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+						>
+							Pack your dreams in our affordable tents at Ziro Music Fest 2023!
+						</p>
+						<h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+							Make Your Camping Abode Amazing With Us!
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="ftco-section ftco-no-pb ftco-no-pt">
+			<div class="container position-relative">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="search-wrap-1 ftco-animate p-4">
+							<form action="#" class="search-property-1">
+								<div class="row">
+									<div class="col-lg align-items-end">
+										<div class="form-group">
+											<label for="checkin_date">Check-in date</label>
+											<div class="form-field">
+												<div class="icon">
+													<span class="ion-ios-calendar"></span>
+												</div>
+												<input
+													id="checkin_date"
+													name="checkin_date"
+													type="text"
+													class="form-control checkin_date"
+													placeholder="Check In Date"
+												/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg align-items-end">
+										<div class="form-group">
+											<label for="checkout_date">Check-out date</label>
+											<div class="form-field">
+												<div class="icon">
+													<span class="ion-ios-calendar"></span>
+												</div>
+												<input
+													id="checkout_date"
+													name="checkout_date"
+													type="text"
+													class="form-control checkout_date"
+													placeholder="Check Out Date"
+												/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg align-items-end">
+										<div class="form-group">
+											<label for="#">Select Package</label>
+											<div class="form-field">
+												<div class="select-wrap">
+													<div class="icon">
+														<span class="ion-ios-arrow-down"></span>
+													</div>
+													<select
+														name="tent_packaeg"
+														id="tent_packaeg"
+														class="form-control"
+													>
+														<option value="BYOT">Bring your own Tent</option>
+														<option value="PRICE_PER_PERSON">
+															Shared/Private Tent
+														</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg align-self-end">
+										<div class="form-group">
+											<div class="form-field">
+												<button
+													type="submit"
+													class="form-control btn btn-secondary"
+												>
+													Enquire now
+													<span class="ml-1 ion-logo-whatsapp"></span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section services-section bg-light">
+			<div class="container">
+				<div class="row d-flex">
+					<div
+						class="col-md-6 order-md-last heading-section pl-md-5 ftco-animate"
+					>
+						<h2 class="mb-4">It's time to experience Ziro! #ZFM2023</h2>
+						<p>
+							Ziro is a picturesque town in Arunachal Pradesh, India, known for
+							its lush landscapes and as the cultural heart of the Apatani
+							tribe. The Apatani people are renowned for their unique customs,
+							including nose plugs and distinctive agricultural practices.
+						</p>
+						<p>
+							The Ziro Music Festival is an annual event held in Ziro,
+							attracting music enthusiasts and nature lovers alike. It features
+							live music performances by national and international artists
+							against the backdrop of the stunning Eastern Himalayas. The
+							festival celebrates the fusion of music, culture, and the natural
+							beauty of the region, making it a must-visit event for travelers.
+						</p>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-6 d-flex align-self-stretch ftco-animate">
+								<div class="media block-6 services d-block">
+									<div class="icon">
+										<span class="flaticon-paragliding"></span>
+									</div>
+									<div class="media-body">
+										<h3 class="heading mb-3">Music, BBQ, Campfires</h3>
+										<p>
+											Campfires, BBQ, and a blazing band performance on the
+											final day of Ziro Music Fest—where music, food, and
+											camping dreams unite under the starry skies!" 🔥🎶🏕️
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 d-flex align-self-stretch ftco-animate">
+								<div class="media block-6 services d-block">
+									<div class="icon"><span class="flaticon-route"></span></div>
+									<div class="media-body">
+										<h3 class="heading mb-3">Camp Comfort & Connectivity</h3>
+										<p>
+											Enjoy hygienic toilets, a diverse food court, and charging
+											docks on your camping adventure for a comfortable and
+											connected outdoor experience. 🏕️🚽🍔🔌
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 d-flex align-self-stretch ftco-animate">
+								<div class="media block-6 services d-block">
+									<div class="icon">
+										<span class="flaticon-tour-guide"></span>
+									</div>
+									<div class="media-body">
+										<h3 class="heading mb-3">Explore Ziro</h3>
+										<p>
+											Explore Ziro's beauty effortlessly: Rent a bicycle with
+											us, pedal through the hills, and let the music guide your
+											adventure! 🚴🎶 #ZiroCycling
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 d-flex align-self-stretch ftco-animate">
+								<div class="media block-6 services d-block">
+									<div class="icon"><span class="flaticon-map"></span></div>
+									<div class="media-body">
+										<h3 class="heading mb-3">Only 100 Meters to the Beat</h3>
+										<p>
+											Camp just 100 meters from the Ziro Music Festival venue –
+											the closest and most convenient experience for
+											festival-goers! 🏕️🎶
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="camping-categories" class="ftco-section">
+			<div class="container">
+				<div class="row justify-content-center pb-4">
+					<div class="col-md-12 heading-section text-center ftco-animate">
+						<h2 class="mb-4">Our Camping Categories</h2>
+					</div>
+				</div>
+				<div class="row d-flex justify-content-md-around">
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a
+								href="#"
+								class="img"
+								style="background-image: url(images/camping-tent.png)"
+							></a>
+							<div class="text p-4">
+								<span class="price">₹799/person</span>
+								<span class="days">Sept 28, 2023 - Oct 01,2023</span>
+								<h3><a href="#">Bring your own Tent</a></h3>
+								<p class="location">
+									<span class="ion-ios-map"></span> BYOT Camping
+								</p>
+								<a href="" target="_blank">
+									<button type="button" class="btn btn-primary">
+										Book over Whatsapp
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a
+								href="#"
+								class="img"
+								style="background-image: url(images/camping-tent.png)"
+							></a>
+							<div class="text p-4">
+								<span class="price">₹1199/person</span>
+								<span class="days">Sept 28, 2023 - Oct 01,2023</span>
+								<h3><a href="#">Shared/Private Tent</a></h3>
+								<p class="location">
+									<span class="ion-ios-map"></span> Private/Shared Camping
+								</p>
+								<button type="button" class="btn btn-primary">
+									Book over Whatsapp
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="camping-gallery" class="ftco-section bg-light">
+			<div class="row justify-content-center pb-4">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Past Camping Gallery</h2>
+				</div>
+			</div>
+			<div class="container">
+				<!-- Gallery -->
+				<div class="row">
+					<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+						<img
+							src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+							class="w-100 shadow-1-strong rounded mb-4"
+							alt="Boat on Calm Water"
+						/>
+
+						<img
+							src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+							class="w-100 shadow-1-strong rounded mb-4"
+							alt="Wintry Mountain Landscape"
+						/>
+					</div>
+
+					<div class="col-lg-4 mb-4 mb-lg-0">
+						<img
+							src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+							class="w-100 shadow-1-strong rounded mb-4"
+							alt="Mountains in the Clouds"
+						/>
+
+						<img
+							src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+							class="w-100 shadow-1-strong rounded mb-4"
+							alt="Boat on Calm Water"
+						/>
+					</div>
+
+					<div class="col-lg-4 mb-4 mb-lg-0">
+						<img
+							src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+							class="w-100 shadow-1-strong rounded mb-4"
+							alt="Waves at Sea"
+						/>
+
+						<img
+							src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+							class="w-100 shadow-1-strong rounded mb-4"
+							alt="Yosemite National Park"
+						/>
+					</div>
+				</div>
+				<!-- Gallery -->
+			</div>
+		</section>
+		<div id="map"></div>
+		<footer
+			class="ftco-footer bg-bottom"
+			style="background-image: url(images/footer-bg.jpg)"
+		>
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md">
+						<div class="block-23 mb-3">
+							<ul>
+								<li>
+									<span class="icon icon-map-marker"></span
+									><span class="text"
+										>203 Fake St. Mountain View, San Francisco, California,
+										USA</span
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="block-23 mb-3">
+							<ul>
+								<li>
+									<a href="#"
+										><span class="icon icon-phone"></span
+										><span class="text">+2 392 3929 210</span></a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="block-23 mb-3">
+							<ul>
+								<li>
+									<a href="#"
+										><span class="icon icon-envelope"></span
+										><span class="text">info@yourdomain.com</span></a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;
+							<script>
+								document.write(new Date().getFullYear());
+							</script>
+							All rights reserved | This template is made with
+							<i class="icon-heart color-danger" aria-hidden="true"></i> by
+							<a href="https://colorlib.com" target="_blank">Colorlib</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- loader -->
+		<div id="ftco-loader" class="show fullscreen">
+			<svg class="circular" width="48px" height="48px">
+				<circle
+					class="path-bg"
+					cx="24"
+					cy="24"
+					r="22"
+					fill="none"
+					stroke-width="4"
+					stroke="#eeeeee"
+				/>
+				<circle
+					class="path"
+					cx="24"
+					cy="24"
+					r="22"
+					fill="none"
+					stroke-width="4"
+					stroke-miterlimit="10"
+					stroke="#F96D00"
+				/>
+			</svg>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<script src="js/bootstrap-datepicker.js"></script>
+		<script src="js/scrollax.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src="js/google-map.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			async function initMap() {
+				// The location of Uluru
+				const position = { lat: -25.344, lng: 131.031 };
+				// Request needed libraries.
+				//@ts-ignore
+				const { Map } = await google.maps.importLibrary("maps");
+				const { AdvancedMarkerElement } = await google.maps.importLibrary(
+					"marker"
+				);
+
+				// The map, centered at Uluru
+				map = new Map(document.getElementById("map"), {
+					zoom: 4,
+					center: position,
+					mapId: "DEMO_MAP_ID",
+				});
+
+				// The marker, positioned at Uluru
+				const marker = new AdvancedMarkerElement({
+					map: map,
+					position: position,
+					title: "Uluru",
+				});
+			}
+
+			initMap();
+		</script>
+	</body>
+</html>
