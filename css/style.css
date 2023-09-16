@@ -10783,18 +10783,18 @@ h5,
 	opacity: 0.4;
 	background: #000000;
 	background: #2f88fc;
-	background: -moz-linear-gradient(180deg, #2f88fc 0%, #ff5959 100%);
+	background: -moz-linear-gradient(0deg, #000000 50%, #dee2e6 100%);
 	background: -webkit-gradient(
 		left bottom,
 		right top,
-		color-stop(0%, #2f88fc),
-		color-stop(100%, #ff5959)
+		color-stop(50%, #000000),
+		color-stop(100%, #dee2e6)
 	);
-	background: -webkit-linear-gradient(180deg, #2f88fc 0%, #ff5959 100%);
-	background: -o-linear-gradient(180deg, #2f88fc 0%, #ff5959 100%);
-	background: -ms-linear-gradient(180deg, #2f88fc 0%, #ff5959 100%);
-	background: linear-gradient(180deg, #2f88fc 0%, #ff5959 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f88fc', endColorstr='#ff5959', GradientType=1 );
+	background: -webkit-linear-gradient(0deg, #000000 50%, #dee2e6 100%);
+	background: -o-linear-gradient(0deg, #000000 50%, #dee2e6 100%);
+	background: -ms-linear-gradient(0deg, #000000 50%, #dee2e6 100%);
+	background: linear-gradient(0deg, #000000 50%, #dee2e6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#dee2e6', GradientType=1 );
 }
 .hero-wrap.hero-wrap-2 .overlay {
 	width: 100%;
@@ -11196,8 +11196,8 @@ h5,
 	line-height: 1.3;
 	position: relative;
 }
-.services .icon span {
-	font-size: 60px;
+.services .icon svg {
+	height: 128px;
 	color: var(--primary);
 }
 .services .media-body h3 {
@@ -12334,6 +12334,10 @@ textarea.form-control {
 	-webkit-animation: loader-dash 1.5s ease-in-out infinite;
 	animation: loader-dash 1.5s ease-in-out infinite;
 	stroke-linecap: round;
+}
+
+.full-opacity {
+	opacity: 1 !important;
 }
 
 @-webkit-keyframes loader-rotate {
