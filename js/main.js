@@ -349,7 +349,7 @@ AOS.init({
 			checkout_date.getFullYear();
 
 		const url = encodeURI(
-			`https://wa.me/918119886012?text=I'm interested in the ${tent_package} package and would like to inquire about checking in on ${checkin_date} and checking out on ${checkout_date}. Please feel free to contact me.`
+			`https://wa.me/918794895802?text=I'm interested in the ${tent_package} package and would like to inquire about checking in on ${checkin_date} and checking out on ${checkout_date}. Please feel free to contact me.`
 		);
 		$("#enquire-now-form")[0].reset();
 		window.open(url, "_blank");
